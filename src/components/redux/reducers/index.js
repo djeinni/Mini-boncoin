@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
-import courses from "./courseReducer";
+import annonce from "./annonceReducer";
 
 const rootReducer = combineReducers({
-    courses: courses
+    annonce: annonce
 });
 
 export default rootReducer;
